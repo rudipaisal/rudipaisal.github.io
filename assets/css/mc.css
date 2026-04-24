@@ -1036,7 +1036,20 @@ section,
   left: calc(50% - 47px);
   top: calc(50% - 47px);
 }
+.about a .download-btn {
+  padding: 12px 20px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
 
+.about a .download-btn:hover {
+  background: #1e7e34;
+}
 /*--------------------------------------------------------------
 # Stats Section
 --------------------------------------------------------------*/
