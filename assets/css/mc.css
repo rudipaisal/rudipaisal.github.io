@@ -1157,7 +1157,24 @@ section,
     padding: 20px;
   }
 }
+/* =========================================
+   CLIENTS - CENTER IMAGE
+========================================= */
 
+#clients .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+#clients .swiper-slide img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
 /*--------------------------------------------------------------
 # Features Section
 --------------------------------------------------------------*/
